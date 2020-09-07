@@ -1,8 +1,13 @@
 body {
 }
 
+header {
+  display: flex;
+}
+
 .titulo-principal {
   padding-left: 20px;
+  margin-top: 30px;
 }
 
 #banner {
