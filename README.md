@@ -47,3 +47,14 @@ Então, para fazer o branco:
 ***
 
 # Parte 2:
+
+* Para colocar uma imagem como background, basta usar a sintaxe:
+
+  ```css
+  footer {
+    background: url("assets/produtos/bg.jpg");
+  }
+  ```
+
+* Para colocar o "c" comercial usando Unicode, basta:
+
