@@ -46,7 +46,7 @@ Então, para fazer o branco:
 
 ***
 
-# Parte 2:
+# Parte 2: Posicionamento, Listas e Navegação
 
 * Para colocar uma imagem como background, basta usar a sintaxe:
 
@@ -58,3 +58,4 @@ Então, para fazer o branco:
 
 * Para colocar o "c" comercial usando Unicode, basta:
 
+# Parte 3: Trabalhando com formulários e tabelas
