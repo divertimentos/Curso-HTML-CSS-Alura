@@ -33,7 +33,7 @@ nav a:hover {
 }
 
 .produtos {
-  width: 940px;
+  width: 1200px;
   margin: 0 auto;
   padding: 50px 0;
 }
@@ -41,7 +41,7 @@ nav a:hover {
 .produtos li {
   display: inline-block;
   text-align: center;
-  width: 30%;
+  max-width: 30%;
   vertical-align: top;
   margin: 0 1.5%;
   padding: 30px 20px;
@@ -60,12 +60,13 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-  font-size: 30.5px;
+  font-size: 30px;
 }
 
 .produtos h2 {
   font-size: 30px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .produto-descricao {
