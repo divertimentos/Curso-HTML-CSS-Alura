@@ -15,9 +15,8 @@ header {
 }
 
 .principal {
-  background: #CCCCCC;
+  background: #cccccc;
   padding: 30px;
-
 }
 
 .titulo-centralizado {
@@ -33,12 +32,12 @@ p {
 }
 
 em strong {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .itens {
   font-style: italic;
-} 
+}
 
 .beneficios {
   background: #f9f9f9;
