@@ -60,3 +60,5 @@ Então, para fazer o branco:
 
 # Parte 3: Trabalhando com formulários e tabelas
 
+* Lembrar que o `id` do <input/> faz par com o `for`do <label/>. Eles sempre andam juntos.
+* O <input> cujo type é "submit" mostra um botão de enviar com "submit query" como nome default. Para mudar o texto dentro do botão, basta usar um `value="Nome do "`
