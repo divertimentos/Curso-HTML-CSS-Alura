@@ -12,7 +12,7 @@
   <body>
     <header>
       <div class="caixa">
-        <h1><img src="assets/produtos/logo-leila.png" alt="logo" /></h1>
+        <h1><img src="assets/produtos/logo-leila.png" alt="Logo da Barbealeila Leila" /></h1>
 
         <nav>
           <ul class="navegacao">
@@ -26,13 +26,29 @@
     <main>
       <form>
         <label for="nomesobrenome"> Nome e sobrenome </label>
-        <input class="input-padrao" type="text" id="nomesobrenome" required placeholder="seunome" />
+        <input
+          class="input-padrao"
+          type="text"
+          id="nomesobrenome"
+          required
+          placeholder="seunome"
+        />
 
         <label for="email"> E-mail </label>
-        <input class="input-padrao" id="email" type="email" placeholder="seuemail@dominio.com" />
+        <input
+          class="input-padrao"
+          id="email"
+          type="email"
+          placeholder="seuemail@dominio.com"
+        />
 
         <label for="telefone">Telefone</label>
-        <input class="input-padrao" id="telefone" type="tel" placeholder="(xxx)xxxxx-xxxx" />
+        <input
+          class="input-padrao"
+          id="telefone"
+          type="tel"
+          placeholder="(xxx)xxxxx-xxxx"
+        />
 
         <label for="mensagem">Mensagem</label>
         <textarea
@@ -42,8 +58,8 @@
           rows="10"
         ></textarea>
 
-        <div>
-          <p>Como prefere o nosso contato?</p>
+        <fieldset>
+          <legend>Como legendrefere o nosso contato?</p>
           <label for="radio-email">
             <input name="contato" id="radio-email" type="radio" value="email" />
             Email</label
@@ -69,20 +85,20 @@
             />
             WhatsApp</label
           >
-        </div>
+        </fieldset>
 
-        <div>
-          <p>Qual horário prefere ser atendido?</p>
+        <fieldset>
+          <legend>Qual horário legendrefere ser atendido?</p>
           <select>
             <option>Manhã</option>
             <option>Tarde</option>
             <option>Noite</option>
           </select>
-        </div>
+        </fieldset>
 
         <label
-          ><input class="checkbox" type="checkbox" checked />Gostaria de NÃO receber nossas
-          novidades por e-mail?</label
+          ><input class="checkbox" type="checkbox" checked />Gostaria de NÃO
+          receber nossas novidades por e-mail?</label
         >
 
         <input type="submit" value="Enviar" />
@@ -90,7 +106,7 @@
     </main>
 
     <footer>
-      <img src="assets/produtos/logo-leila-branco.png" alt="" />
+      <img src="assets/produtos/logo-leila-branco.png" alt="Logo da Barbealeila Leila (Invertido)" />
       <p class="copyright">&copy; Copyright Barbealeila Leila 2020</p>
     </footer>
   </body>
