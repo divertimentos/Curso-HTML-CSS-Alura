@@ -63,3 +63,8 @@ Então, para fazer o branco:
 * Lembrar que o `id` do <input/> faz par com o `for`do <label/>. Eles sempre andam juntos.
 * O <input> cujo type é "submit" mostra um botão de enviar com "submit query" como nome default. Para mudar o texto dentro do botão, basta usar um `value="Nome do "`
 * Quando você passa um `name` para um grupo de inputs do tipo radio, eles passam a dar "check" em apenas um de cada vez, como irmãos.
+
+#### Hierarquia de prioridade dos seletores
+A hierarquia de preferências é `id` --> `class` --> `tag`. Pode-ser inferir que um `form p` tem preferência sobre um simples `p`, mas não sobre uma classe.
+
+O único mais forte que o `id` é o estilo inline (`style` no próprio HTML).
