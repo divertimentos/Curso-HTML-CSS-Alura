@@ -68,3 +68,5 @@ Então, para fazer o branco:
 A hierarquia de preferências é `id` --> `class` --> `tag`. Pode-ser inferir que um `form p` tem preferência sobre um simples `p`, mas não sobre uma classe.
 
 O único mais forte que o `id` é o estilo inline (`style` no próprio HTML).
+
+# Parte 4: Avançando no CSS
