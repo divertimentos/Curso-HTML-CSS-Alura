@@ -95,9 +95,6 @@ footer {
   margin-top: 20px;
 }
 
-main {
-}
-
 form {
   margin: 40px 0;
 }
@@ -225,6 +222,10 @@ th {
 
 .itens {
   line-height: 1.5em;
+}
+
+.itens:before {
+  content: "🟊 ";
 }
 
 .itens:first-child {

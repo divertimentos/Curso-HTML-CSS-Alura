@@ -71,3 +71,5 @@ O único mais forte que o `id` é o estilo inline (`style` no próprio HTML).
 
 # Parte 4: Avançando no CSS
 * Aprendi sobre como usamos o float para flutuar uma imagem deixando uma "sombra/traço" no local original para evitar que o conteúdo em volta a sobreescreva.
+* Para modificar a primeira letra, temos o pseudoelemento `::first-letter {}`. Para a primeira linha em um parágrafo, temos a `::first-line {}` 
+* Também aprendi a usar o `::before {}` e o `::after {}`
