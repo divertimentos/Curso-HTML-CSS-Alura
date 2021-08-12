@@ -73,3 +73,15 @@ O único mais forte que o `id` é o estilo inline (`style` no próprio HTML).
 * Aprendi sobre como usamos o float para flutuar uma imagem deixando uma "sombra/traço" no local original para evitar que o conteúdo em volta a sobreescreva.
 * Para modificar a primeira letra, temos o pseudoelemento `::first-letter {}`. Para a primeira linha em um parágrafo, temos a `::first-line {}` 
 * Também aprendi a usar o `::before {}` e o `::after {}`
+
+### Seletores Avançados
+* Usamos o `>`para selecionar apenas filhos diretos de um elemento
+* Da mesma forma, usamos o `+` para selecionar um irmão de um elemento
+* Para selecionar todos os irmãos, usamos o `~`
+
+Os seletores avançados têm a mesma força na hora de sobreescrever.
+
+Para selecionar tudo exceto uma classe, usamos o `:not(#className)`
+
+### calc()
+
